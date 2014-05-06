@@ -1,0 +1,16 @@
+ABOUT
+
+Minimal DBLTEK/Hybertone GoIP receiver.
+
+In this state allows to forward sms messages to specified email.
+
+SETUP
+
+cpanm Email::MIME
+cpanm Email::Sender::Simple
+
+./goip-sms.pl port email_from email_to
+
+BUGS & FEATURE REQUEST
+
+http://www.ncom-ufa.ru
