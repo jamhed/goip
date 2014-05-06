@@ -11,6 +11,17 @@ cpanm Email::Sender::Simple
 
 ./goip-sms.pl port email_from email_to
 
+GOIP SETUP
+
+Configurations tab on the left:
+
+SMS Sender: enable
+SMS Server IP: ip address where goip-sms.pl is running
+SMS Server Port: port specified in command line of goip-sms.pl
+SMS Client ID: anything you want
+Password: anything you want
+
+
 BUGS & FEATURE REQUEST
 
 http://www.ncom-ufa.ru
