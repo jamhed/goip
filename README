@@ -6,8 +6,20 @@ In this state allows to forward sms messages to specified email.
 
 SETUP
 
+pre-requisities:
+
+Perl, curl
+
+cpanm setup:
+
+curl -L http://cpanmin.us | perl - App::cpanminus
+
+dependencies setup:
+
 cpanm Email::MIME
 cpanm Email::Sender::Simple
+
+USAGE
 
 ./goip-sms.pl port email_from email_to
 
